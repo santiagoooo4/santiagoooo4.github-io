@@ -5,9 +5,14 @@
     font-family: 'Lato', sans-serif;
     
 }
+body {
+    background-color: rgb(30, 29, 29);
+}
 :root { 
     --colorprimary: #50748a ;
-    --colorsecundario: #fff;
+    --colorsecundario: rgb(220, 218, 218);
+    --colorcard: #3333333a ;
+    
 }
 #video_background {
     position: absolute;
@@ -90,7 +95,7 @@ a {
 
 .normalcard {
     display: flex;
-    background-color: rgba(255, 255, 255, 0.654) ;
+    background-color: var(--colorcard);
     margin:10px 0px;
     padding: 10px;
     align-self: center;
@@ -103,7 +108,7 @@ a {
 
 .bigcard {
     display: grid;
-    background-color: rgba(255, 255, 255, 0.654) ;
+    background-color: var(--colorcard);
     height: 60px;
     justify-content: center;
     align-self: center ;
@@ -134,7 +139,7 @@ p {
 
 }
 
-@media only screen and (min-width:330px) and (max-width: 630px) {
+@media only screen and (min-width:230px) and (max-width: 630px) {
     .grid-container{
         width: 100%;
     }
@@ -144,8 +149,11 @@ p {
     .precio {
         margin: 0px 7px;
     }
+}
+@media only screen and (min-width:230px) and (max-width: 370px) {
+
     .icon-social {
-        width: 55px;
-        transform: scale(80%);
+        width: 70px;
+        transform: scale(70%);
     }
 }
