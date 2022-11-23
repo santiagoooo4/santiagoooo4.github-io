@@ -7,7 +7,7 @@
 }
 :root { 
     --colorprimary: #50748a ;
-    --colorsecundario: #111;
+    --colorsecundario: #fff;
 }
 #video_background {
     position: absolute;
