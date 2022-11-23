@@ -39,6 +39,7 @@
     width: 80%;
     max-width: 500px;
     min-width: 350px;
+    max-height: 900px;
     height: 90vh;
     background: rgba(0, 0, 0, 0.615);
     border-radius: 20px;
