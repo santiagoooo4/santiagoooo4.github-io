@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+:root { 
+    --colorprimary: #50748a ;
+    --colorsecundario: #111;
+}
+#video_background {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    opacity: 0.8;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+    }
+
+#video_pattern {
+    background:#fff;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.grid-container{
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    max-width: 500px;
+    min-width: 450px;
+    height: 90vh;
+    background: rgba(0, 0, 0, 0.615);
+    border-radius: 20px;
+    display: grid; 
+    padding-top: 40px;
+    filter: blur(5deg);
+}
+.flex-social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 50%;
+    justify-content: center
+}
+.img-profile {
+    display: grid;
+    width: 25%;
+    max-width: 250px;
+    border-radius: 50%;
+}
+.profile-tag{
+    margin: 20px;
+    font-weight: 800;
+    font-size: calc(1rem, 10vw + 1rem, 5rem);
+}
+
+.li {
+    list-style: none;  
+}
+.container2 {
+    width: 90%;
+}
+a {
+    text-decoration:none;
+    color: var(--colorsecundario);
+    font-weight: 1000 ;
+}
+
+
+.social {
+    display: inline;
+    margin: 5px;
+    filter: invert(43%) sepia(31%) saturate(478%) hue-rotate(159deg) brightness(92%) contrast(88%);    
+}
+
+.normalcard {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.654) ;
+    margin:10px 0px;
+    padding: 10px;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    
+    
+}
+
+.bigcard {
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.654) ;
+    height: 60px;
+    justify-content: center;
+    align-self: center ;
+    border-radius: 15px;
+}
+.ayudame {
+   font-size: 1.3em; 
+}
+.precio {
+    margin: 0px 15px;
+}
+.leterspacing {
+    letter-spacing: 2px;
+}
+p {
+    font-weight: 1000;    
+    display: inline;
+}
+.icon-social {
+    width: 80px;
+    transform: scale(80%);
+}
+.center {
+    justify-self: center;
+}
+.colorprimary {
+    color: var(--colorprimary);
+
+}
+.colorsecundario {
+    color: var(--colorsecundario);
+
+}
+
+
