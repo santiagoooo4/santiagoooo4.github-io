@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Lato', sans-serif;
+    
 }
 :root { 
     --colorprimary: #50748a ;
@@ -22,7 +23,7 @@
     }
 
 #video_pattern {
-    background:#fff;
+    background:rgb(0, 0, 0);
     position: fixed;
     left: 0px;
     top: 0px;
@@ -34,15 +35,15 @@
 .grid-container{
     margin: auto;
     margin-top: 20px;
+    padding-top: 40px;
     width: 80%;
     max-width: 500px;
-    min-width: 450px;
+    min-width: 350px;
     height: 90vh;
     background: rgba(0, 0, 0, 0.615);
     border-radius: 20px;
     display: grid; 
-    padding-top: 40px;
-    filter: blur(5deg);
+    backdrop-filter: blur(20px);
 }
 .flex-social {
     display: flex;
@@ -50,6 +51,10 @@
     flex-wrap: nowrap;
     height: 50%;
     justify-content: center
+}
+.icon-social {
+    width: 80px;
+    transform: scale(80%);
 }
 .img-profile {
     display: grid;
@@ -116,10 +121,6 @@ p {
     font-weight: 1000;    
     display: inline;
 }
-.icon-social {
-    width: 80px;
-    transform: scale(80%);
-}
 .center {
     justify-self: center;
 }
@@ -132,4 +133,18 @@ p {
 
 }
 
-
+@media only screen and (min-width:330px) and (max-width: 630px) {
+    .grid-container{
+        width: 100%;
+    }
+    .container2 {
+        width: 97%;
+    }
+    .precio {
+        margin: 0px 7px;
+    }
+    .icon-social {
+        width: 55px;
+        transform: scale(80%);
+    }
+}
