@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: rgba(34, 31, 31, 0.498); */
+}
+
+.container_background{
+    /* background: rgba(47, 30, 10, 0.22); */
+    backdrop-filter: blur(30px);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 1000;
+}
+
+.sp1 {
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    background: rgba(249, 162, 0, 0.781);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: aimation1 6s ease infinite;
+    
+}
+.sp2 {
+    position: absolute;
+    top: 30vh;
+    left: 40vw;
+    background-color: rgba(255, 221, 0, 0.786);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: girar 4s linear infinite;
+}
+.sp3 {
+    position: absolute;
+    top: 50vh;
+    left: 80vw;
+    background-color: rgba(255, 132, 0, 0.639);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation-delay: 3s;
+    animation: aimation2 6s ease infinite;
+    animation: girar2 6s linear infinite;
+}
+.sp4 {
+    position: absolute;
+    top: 10vh;
+    left: 60vw;
+    background: rgba(249, 162, 0, 0.781);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+.sp5 {
+    position: absolute;
+    top: 70vh;
+    left: 55vw;
+    background-color: rgba(255, 221, 0, 0.786);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: aimation1 8s ease infinite;
+}
+.sp6 {
+    position: absolute;
+    top: 30vh;
+    left: 20vw;
+    background-color: rgba(255, 132, 0, 0.639);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: aimation2 2s ease infinite;
+}
+
+/* @keyframes aimation1 {
+    0%{
+        transform: translate(0vh, 0vw);
+    }
+    25%{
+        transform: translate(10vh, 20vw) scale(-150%);
+    }
+    50%{
+        transform: translate(20vh, 30vw) scale(150%);
+    }
+    75%{
+        transform: translate(10vh, 10vw) scale(70%);
+    }
+    100%{
+        transform: translate(0vh, 0vw);
+    }
+}
+@keyframes aimation2 {
+    0%{
+        transform: translate(0vh, 0vw) scale(0%);
+    }
+    25%{
+        transform: translate(-10vh, -20vw) scale(-50%);
+    }
+    
+    75%{
+        transform: translate(-10vh, 10vw) scale(20%);
+    }
+    100%{
+        transform: translate(0vh, 0vw) scale(0%);
+    }
+}
+@keyframes girar {
+    0%{ transform:  rotate(0deg)  translate(-100px)  rotate(0deg); }
+    
+    100% { transform: rotate(360deg) translate(-100px)  rotate(-360deg); }
+}
+@keyframes girar2 {
+    0% { transform: rotate(360deg) translate(-100px)  rotate(-360deg); }
+    100%{ transform:  rotate(0deg)  translate(-100px)  rotate(0deg); }
+    
+} */
