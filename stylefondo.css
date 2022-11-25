@@ -4,12 +4,14 @@
     box-sizing: border-box;
     
 } */
-
+::-webkit-scrollbar {
+    display: none;
+}
 .background{
     background-color: rgba(34, 31, 31);
     background: rgba(0, 0, 0, 0.635);
     backdrop-filter: blur(30px);
-    height: 100%;
+    height: 110%;
     width: 100%;
     position: absolute;
     z-index: 1;
@@ -29,18 +31,18 @@
 }
 .sp0 {
     position: absolute;
-    top: 60%;
+    top: 30%;
     left: 50%;
     background: rgb(0, 249, 224);
     width: 500px;
     height: 200px;
     border-radius: 50%;
-    animation: aimation2 6s ease infinite;
+    animation: aimation1 6s ease infinite;
 }
 .sp1 {
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 5%;
+    left: 330%;
     background: rgba(249, 162, 0, 0.781);
     width: 200px;
     height: 200px;
@@ -92,8 +94,8 @@
 }
 .sp6 {
     position: absolute;
-    top: 30%;
-    left: 20%;
+    top: 50%;
+    left: 40%;
     background-color: rgba(255, 132, 0, 0.639);
     width: 200px;
     height: 200px;
@@ -103,7 +105,7 @@
 .sp7 {
     position: absolute;
     top: 60%;
-    left: 20%;
+    left: 35%;
     background-color: rgba(68, 255, 0, 0.624);
     width: 200px;
     height: 200px;
@@ -112,8 +114,8 @@
 }
 .sp8 {
     position: absolute;
-    top: 50%;
-    left: 60%;
+    top: 45%;
+    left: 40%;
     background-color: rgba(0, 0, 255, 0.639);
     width: 200px;
     height: 200px;
@@ -133,8 +135,8 @@
 }
 .sp10 {
     position: absolute;
-    top: 60%;
-    left: 80%;
+    top: 40%;
+    left: 50%;
     background: rgba(249, 162, 0, 0.781);
     width: 200px;
     height: 200px;
@@ -143,8 +145,8 @@
 }
 .sp11 {
     position: absolute;
-    top: 70%;
-    left: 80%;
+    top: 50%;
+    left: 50%;
     background: rgba(249, 162, 0, 0.781);
     width: 200px;
     height: 200px;
@@ -153,8 +155,8 @@
 }
 .sp12 {
     position: absolute;
-    top: 30%;
-    left: 20%;
+    top: 20%;
+    left: 40%;
     background: rgba(255, 64, 0, 0.141);
     width: 400px;
     height: 400px;
