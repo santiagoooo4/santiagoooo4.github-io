@@ -19,8 +19,8 @@
 
 .sp1 {
     position: absolute;
-    top: 10vh;
-    left: 10vw;
+    top: 10%;
+    left: 105;
     background: rgba(249, 162, 0, 0.781);
     width: 200px;
     height: 200px;
@@ -30,8 +30,8 @@
 }
 .sp2 {
     position: absolute;
-    top: 30vh;
-    left: 40vw;
+    top: 30%;
+    left: 40%;
     background-color: rgba(255, 221, 0, 0.786);
     width: 200px;
     height: 200px;
@@ -40,8 +40,8 @@
 }
 .sp3 {
     position: absolute;
-    top: 50vh;
-    left: 50vw;
+    top: 50%;
+    left: 50%;
     background-color: rgba(255, 132, 0, 0.639);
     width: 200px;
     height: 200px;
@@ -52,8 +52,8 @@
 }
 .sp4 {
     position: absolute;
-    top: 10vh;
-    left: 60vw;
+    top: 10%;
+    left: 40%;
     background: rgba(249, 162, 0, 0.781);
     width: 200px;
     height: 200px;
@@ -63,8 +63,8 @@
 }
 .sp5 {
     position: absolute;
-    top: 50vh;
-    left: 55vw;
+    top: 50%;
+    left: 55%;
     background-color: rgba(255, 221, 0, 0.786);
     width: 200px;
     height: 200px;
@@ -73,8 +73,8 @@
 }
 .sp6 {
     position: absolute;
-    top: 30vh;
-    left: 20vw;
+    top: 30%;
+    left: 20%;
     background-color: rgba(255, 132, 0, 0.639);
     width: 200px;
     height: 200px;
