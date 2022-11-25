@@ -2,11 +2,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* background-color: rgba(34, 31, 31, 0.498); */
+    background-color: rgba(34, 31, 31, 0.498);
 }
 
 .container_background{
-    /* background: rgba(47, 30, 10, 0.22); */
+    background: rgba(47, 30, 10, 0.22);
     backdrop-filter: blur(30px);
     height: 100vh;
     width: 100vw;
@@ -78,7 +78,7 @@
     animation: aimation2 2s ease infinite;
 }
 
-/* @keyframes aimation1 {
+@keyframes aimation1 {
     0%{
         transform: translate(0vh, 0vw);
     }
@@ -119,4 +119,4 @@
     0% { transform: rotate(360deg) translate(-100px)  rotate(-360deg); }
     100%{ transform:  rotate(0deg)  translate(-100px)  rotate(0deg); }
     
-} */
+}
