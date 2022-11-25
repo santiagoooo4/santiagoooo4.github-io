@@ -1,8 +1,9 @@
-/* *{
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-} */
+    
+}
 
 .background{
     background-color: rgba(34, 31, 31);
@@ -83,7 +84,7 @@
     animation: aimation1 2s ease infinite;
 }
 
-@keyframes aimation1 {
+/* @keyframes aimation1 {
     0%{
         transform: translate(0px, 0vpx);
     }
@@ -136,4 +137,4 @@
     100% { 
         background-color: rgba(255, 132, 0, 0.639);
      }
-}
+} */
