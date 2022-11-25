@@ -11,7 +11,7 @@
     background-color: rgba(34, 31, 31);
     background: rgba(0, 0, 0, 0.488);
     backdrop-filter: blur(30px);
-    height: 110%;
+    height: 100%;
     width: 100%;
     position: absolute;
     z-index: 1;
@@ -158,8 +158,8 @@
     top: 20%;
     left: 40%;
     background: rgba(255, 64, 0, 0.141);
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     animation: aimation3 20s ease-in-out infinite;
 }
