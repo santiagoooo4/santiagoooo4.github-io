@@ -7,7 +7,7 @@
 }
 body {
     background-color: rgb(30, 29, 29);
-    overflow: hidden;
+    overflow-x: hidden;
     /* display: grid; */
 }
 :root { 
@@ -48,6 +48,7 @@ body {
 .grid-container{
     margin: auto;
     position: absolute;
+    margin-bottom: 5%;
     top: 3vh;
     left: 50%;
     transform: translate(-50%);
