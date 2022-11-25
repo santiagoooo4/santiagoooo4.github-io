@@ -8,6 +8,7 @@
 body {
     background-color: rgb(30, 29, 29);
     overflow: hidden;
+    /* display: grid; */
 }
 :root { 
     --colorprimary: #50748a ;
@@ -40,14 +41,20 @@ body {
 .containerinfo{
     position: relative;
     z-index: 50;
-    /* position: absolute;
-    display: flex;
+    position: relative;
+    /* display: flex;
     justify-content: center; */
 }
 .grid-container{
     margin: auto;
-    margin-top: 20px;
+    position: absolute;
+    top: 3vh;
+    left: 50%;
+    transform: translate(-50%);
+    justify-content: center;
+    /* margin-top: 20px; */
     padding-top: 40px;
+    padding-bottom: 20px;
     width: 80%;
     max-width: 500px;
     min-width: 350px;
@@ -104,7 +111,7 @@ a {
 .normalcard {
     display: flex;
     background-color: var(--colorcard);
-    margin:10px 0px;
+    margin:15px 0px;
     padding: 10px;
     align-self: center;
     justify-content: center;
@@ -124,6 +131,7 @@ a {
 }
 .ayudame {
    font-size: 1.3em; 
+   margin: 20px 0px 40px 0px ;
 }
 .precio {
     margin: 0px 15px;

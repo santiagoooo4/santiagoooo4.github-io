@@ -9,15 +9,13 @@
     background-color: rgba(34, 31, 31);
     background: rgba(47, 30, 10, 0.22);
     backdrop-filter: blur(30px);
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     position: absolute;
     z-index: 1;
-    justify-self: start;
+    /* justify-self: start; */
 }
-.cointainerfondo{
-    z-index: 12;
-}
+
 
 .sp1 {
     position: absolute;
